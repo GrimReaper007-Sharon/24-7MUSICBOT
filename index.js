@@ -25,7 +25,7 @@ if (!TOKEN) {
   return process.exit(1);
 }
 client.on('ready', async () => {
-  client.user.setActivity(STATUS, { type: "STREAMING", url:"https://www.twitch.tv/captain_motchy"});
+  client.user.setActivity(STATUS, { type: "STREAMING", url:"YOUTUBE CHANNEL LINK"});
   let channel = client.channels.cache.get(CHANNEL) || await client.channels.fetch(CHANNEL)
 
   if (!channel) {
